@@ -21,6 +21,7 @@ console.log(giveHobbies(user)) ----> Pauls Hobbies sind: swim, read, walk, code.
 
 
 <br />
+
 **2. Schreibe eine Funktion `hasHobby()` die ein Objekt  und einen String entgegennimmt. Die Funktion soll überprüfen ob der String in dem Hobbies Array des Objekts enthalten ist. Die Funktion soll true oder false zurückgeben.**
 Beispiel:
 
@@ -31,6 +32,7 @@ Beispiel:
 
 
 <br />
+
 **3. Erstelle eine Funktion `giveData()` die 2 Argumente entgegennimmt, einmal ein Objekt und zum anderen einen String (erwartet wird entweder: 'key', 'value' oder 'both').** 
 
 Die Funktion soll das Objekt in einen Array umwandeln. Der Rückgabearray soll entweder nur die keys, nur die values oder beides enthalten, entsprechend dem 2. Argument. 
@@ -49,6 +51,7 @@ console.log(giveData(user, 'andererString')) --> 'Die Eingabe ist fehlerhaft'
 
 
 <br />
+
 ### ARRAYS
 *Für die folgenden fünf Aufgaben kann das months array verwendet werden, versucht die array Methoden map, filter und reduce zu verwenden.*
 
