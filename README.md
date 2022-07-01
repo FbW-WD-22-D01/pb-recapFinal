@@ -161,8 +161,7 @@ console.log(rect1.calcArea()) --> 4
 **Schreibe eine Funktion, die einen String entgegennimmt und überprüft, ob es sich um eine gültige Email eurer Firma handelt. Dafür sollte die Funktion folgendes überprüfen:**
 - Länge mindestens 20 Zeichen
 - @ enthalten sein
-- am Ende sollte 'meine-firma.de' stehen */
-
+- am Ende sollte 'meine-firma.de' stehen
 
 
 
