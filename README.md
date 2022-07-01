@@ -1,6 +1,6 @@
 # Recap PB Basics
 
-### OBJEKTE
+## OBJEKTE
 *Das folgende Objekt kann für die folgenden drei Aufgaben benutzt werden:*
 
 ```
@@ -52,7 +52,7 @@ console.log(giveData(user, 'andererString')) --> 'Die Eingabe ist fehlerhaft'
 
 <br /><br />
 
-### ARRAYS
+## ARRAYS
 *Für die folgenden fünf Aufgaben kann das months array verwendet werden, versucht die array Methoden map, filter und reduce zu verwenden.*
 
 ```
