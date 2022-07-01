@@ -10,7 +10,7 @@ const user = {
 
 /* 1. Erstelle eine Funktion giveHobbies() die ein Objekt entgegennimmt und einen String zurückgibt, der den Namen und die Hobbies enthält.
 
-Bsp: 'console.log(giveUserHobby) ----> Pauls Hobbies sind: swim, read, walk, code. '
+Bsp: 'console.log(giveUserHobby) ----> Die Hobbies von Paul sind: swim, read, walk, code. '
 */
 
 
@@ -22,17 +22,17 @@ Bsp: console.log(hasHobby(user, 'swim')) --> true */
 
 
 
-/* 3. Erstelle eine Funktion giveData() die 2 Argumente entgegennimmt, einmal ein Objekt und zum anderen einen String(entweder : 'key', 'value' oder 'beide'). 
+/* 3. Erstelle eine Funktion giveData() die 2 Argumente entgegennimmt, einmal ein Objekt und zum anderen einen String(erwartet wird entweder : 'key', 'value' oder 'both'). 
 
 Die Funktion soll das Objekt in einen Array umwandeln. Der Rückgabearray soll entweder nur die keys, nur die values oder beides enthalten, entsprechend dem 2. Argument. 
 
-Wenn das 2. Argument weder 'key', 'value' oder 'beide' ist, soll eine Fehlermeldung zurückgegeben werden.
+Wenn das 2. Argument weder 'key', 'value' oder 'both' ist, soll eine Fehlermeldung zurückgegeben werden.
 
 siehe die Beispiele: 
 
 console.log(giveData(user, 'key')) --> ['name', 'age', 'hobbies', 'city']
 
-console.log(giveData(user, 'beide')) --> [['name', 'Paul'], ['age', 35], ['hobbies', ['swim', 'read', 'walk', 'code']], ['city', 'Rom]]
+console.log(giveData(user, 'both')) --> [['name', 'Paul'], ['age', 35], ['hobbies', ['swim', 'read', 'walk', 'code']], ['city', 'Rom]]
 
 console.log(giveData(user, 'andererString')) --> 'Die Eingabe ist fehlerhaft'
 
