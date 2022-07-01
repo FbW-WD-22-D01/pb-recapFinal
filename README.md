@@ -13,17 +13,17 @@ const user = {
 ```
 
 **1. Erstelle eine Funktion `giveHobbies()` die ein Objekt entgegennimmt und einen String zurückgibt, der den Namen und die Hobbies enthält.**
-Beispiel: 
+
 
 ```
-console.log(giveHobbies(user)) ----> Pauls Hobbies sind: swim, read, walk, code. 
+console.log(giveHobbies(user)) ----> Die Hobbies von Paul sind: swim, read, walk, code. 
 ```
 
 
 <br /><br />
 
 **2. Schreibe eine Funktion `hasHobby()` die ein Objekt  und einen String entgegennimmt. Die Funktion soll überprüfen ob der String in dem Hobbies Array des Objekts enthalten ist. Die Funktion soll true oder false zurückgeben.**
-Beispiel:
+
 
  ```
  console.log(hasHobby(user, 'swim')) --> true
@@ -39,7 +39,7 @@ Die Funktion soll das Objekt in einen Array umwandeln. Der Rückgabearray soll e
 
 Wenn das 2. Argument weder 'key', 'value' oder 'both' ist, soll eine Fehlermeldung zurückgegeben werden.
 
-siehe die Beispiele: 
+*siehe die Beispiele:*
 
 ```
 console.log(giveData(user, 'key')) --> ['name', 'age', 'hobbies', 'city']
