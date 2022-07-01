@@ -20,7 +20,7 @@ console.log(giveHobbies(user)) ----> Pauls Hobbies sind: swim, read, walk, code.
 ```
 
 
-<br />
+<br /><br />
 
 **2. Schreibe eine Funktion `hasHobby()` die ein Objekt  und einen String entgegennimmt. Die Funktion soll überprüfen ob der String in dem Hobbies Array des Objekts enthalten ist. Die Funktion soll true oder false zurückgeben.**
 Beispiel:
@@ -31,7 +31,7 @@ Beispiel:
 
 
 
-<br />
+<br /><br />
 
 **3. Erstelle eine Funktion `giveData()` die 2 Argumente entgegennimmt, einmal ein Objekt und zum anderen einen String (erwartet wird entweder: 'key', 'value' oder 'both').** 
 
@@ -50,7 +50,7 @@ console.log(giveData(user, 'andererString')) --> 'Die Eingabe ist fehlerhaft'
 ```
 
 
-<br />
+<br /><br />
 
 ### ARRAYS
 *Für die folgenden fünf Aufgaben kann das months array verwendet werden, versucht die array Methoden map, filter und reduce zu verwenden.*
@@ -59,12 +59,15 @@ console.log(giveData(user, 'andererString')) --> 'Die Eingabe ist fehlerhaft'
 const months = ['jan', 'feb', 'märz', 'april', 'mai', 'juni', 'juli', 'aug', 'sept', 'okt', 'nov', 'dez']
 ```
 
+<br /><br />
+
 **1. Schreibe eine Funktion monthToNum(), die das Array entgegennimmt und einen neuen Array zurückgibt, der statt der Monatsnamen nur noch die Monatszahlen enthält.**
 
 ```
 console.log(monthToNum(months)) ---> [1,2,3,4,5,6,7,8,9,10,11,12]
 ```
 
+<br /><br />
 
 **2. Schreibe eine Funktion longerThan3() die das Array entgegennimmt und einen Array zurückgibt, der nur noch Monate enthält, die länger als 3 Buchstaben sind.**
 
@@ -72,6 +75,7 @@ console.log(monthToNum(months)) ---> [1,2,3,4,5,6,7,8,9,10,11,12]
 console.log(longerThan3(months)) --> ['märz','april','juni', 'juli', 'sept']
 ```
 
+<br /><br />
 
 **3. Schreibe eine Funktion die den array entgegennimmt. Die Funktion soll den Array in der Mitte teilen und diese beiden Arrays in einem Array verschachteln. Verwirrt? Seht das Beispiel:**
 
@@ -79,7 +83,7 @@ console.log(longerThan3(months)) --> ['märz','april','juni', 'juli', 'sept']
 console.log(splitMonths(months)) ---> [['jan', 'feb', 'märz', 'april', 'mai', 'juni'], [ 'juli', 'aug', 'sept', 'okt', 'nov', 'dez']]
 ```
 
-
+<br /><br />
 
 **4. Schreibe eine Funktion, die das Array entgegennimmt und daraus ein Objekt erstellt, die Werte des Arrays sollen dabei die keys bilden, die Indexnummern bilden die values:**
 
@@ -88,7 +92,7 @@ console.log(splitMonths(months)) ---> [['jan', 'feb', 'märz', 'april', 'mai', '
 console.log(arrayToObj(months))  --> {jan: 1, feb: 2, märz: 3, april: 4 ...uswusf.}
 ```
 
-
+<br /><br />
 
 **5. Schreibe eine Funktion doubleMe() die einen Array entgegennimmt und die enthaltenen Strings verdoppelt. Beispiel:**
 
@@ -96,6 +100,8 @@ console.log(arrayToObj(months))  --> {jan: 1, feb: 2, märz: 3, april: 4 ...uswu
 ```
 console.log(doubleMe(months)) --> ['janjan', 'febfeb', 'märzmärz', 'aprilapril' ....] */
 ```
+
+<br /><br />
 
  ## COMPLEX DATA
 *Verwendet das komplexe Array `bestellungen` für die folgenden 3 Aufgaben:*
@@ -108,12 +114,15 @@ console.log(doubleMe(months)) --> ['janjan', 'febfeb', 'märzmärz', 'aprilapril
  ]
  ```
 
+<br /><br />
+
  **1. Schreib eine Funktion valueOrders() die den "bestellungen" Array entgegennimmt. Die Funktion soll den Gesamtwert aller Bestellungen zurückgeben. Beachte die Anzahl der jeweiligen Bestellungen.**
  
  ```
  console.log(valueOrders(bestellungen)) --> 7 */
 ```
 
+<br /><br />
 
  **2. Schreib eine Funktion singleOrders(), die den "bestellungen" Array entgegennimmt und einen Array mit dem jeweiligen Wert der einzelnen Bestellungen zurückgibt:**
  
@@ -121,12 +130,15 @@ console.log(doubleMe(months)) --> ['janjan', 'febfeb', 'märzmärz', 'aprilapril
  console.log(singleOrders(bestellungen)) --> [2,4,1] */
 ```
 
+<br /><br />
 
 **3. Schreibe eine Funktion givePrice(), die den bestellungen Array entgegennimmt und einen drink. Die Funktion, soll den Preis des Getränks zurückgeben.**
 
 ```
 console.log(givePrice(bestellungen, 'cola')) --> 2
 ```
+
+<br /><br />
 
 ## KLASSEN
 
@@ -142,8 +154,7 @@ console.log(rect1.isSquare()) --> true
 console.log(rect1.calcArea()) --> 4
 ```
 
-
-
+<br /><br />
 
 ## DATA PROCESSING
 
