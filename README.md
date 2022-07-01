@@ -13,12 +13,20 @@ const user = {
 ```
 
 **1. Erstelle eine Funktion `giveHobbies()` die ein Objekt entgegennimmt und einen String zurückgibt, der den Namen und die Hobbies enthält.**
-Bsp: ```console.log(giveHobbies(user)) ----> Pauls Hobbies sind: swim, read, walk, code. ```
+Beispiel: 
+
+```
+console.log(giveHobbies(user)) ----> Pauls Hobbies sind: swim, read, walk, code. 
+```
 
 
 
 **2. Schreibe eine Funktion `hasHobby()` die ein Objekt  und einen String entgegennimmt. Die Funktion soll überprüfen ob der String in dem Hobbies Array des Objekts enthalten ist. Die Funktion soll true oder false zurückgeben.**
-Bsp: ```console.log(hasHobby(user, 'swim')) --> true```
+Beispiel:
+
+ ```
+ console.log(hasHobby(user, 'swim')) --> true
+ ```
 
 
 
