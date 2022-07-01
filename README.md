@@ -143,8 +143,8 @@ console.log(givePrice(bestellungen, 'cola')) --> 2
 ## KLASSEN
 
 **Erstelle eine Klasse "Rectangle" (Rechteck), diese Klasse sollte die Eigenschaften "width" and "height" besitzen. Zusätzlich erstelle für die Klasse folgende Methoden:**
-    - "calcArea" -> diese Methode sollte die Fläche des jeweiligen Rechtecks zurückgeben (widht * height)
-    - "isSquare" -> die Methode sollte true zurückgeben wenn width and height gleich sind
+- "calcArea" -> diese Methode sollte die Fläche des jeweiligen Rechtecks zurückgeben (widht * height)
+- "isSquare" -> die Methode sollte true zurückgeben wenn width and height gleich sind
 
 *Beispiel:*
 
@@ -159,9 +159,9 @@ console.log(rect1.calcArea()) --> 4
 ## DATA PROCESSING
 
 **Schreibe eine Funktion, die einen String entgegennimmt und überprüft, ob es sich um eine gültige Email eurer Firma handelt. Dafür sollte die Funktion folgendes überprüfen:**
-    - Länge mindestens 20 Zeichen
-    - @ enthalten sein
-    - am Ende sollte 'meine-firma.de' stehen */
+- Länge mindestens 20 Zeichen
+- @ enthalten sein
+- am Ende sollte 'meine-firma.de' stehen */
 
 
 
