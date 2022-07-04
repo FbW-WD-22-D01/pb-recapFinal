@@ -91,7 +91,7 @@ console.log('longerThan3: ',longerThan3(months))
 console.log(splitMonths(months)) ---> [['jan', 'feb', 'märz', 'april', 'mai', 'juni'], [ 'juli', 'aug', 'sept', 'okt', 'nov', 'dez']] */
 function splitMonths(array){
     
-    //wichtig slice verwenden, denn splice würde den Originalarray verändern
+    //Unterschied zwischen slice und splice beachten --> splice würde den Originalarray verändern
     const result = [array.slice(0,6), array.slice(6)] 
     
     return result
